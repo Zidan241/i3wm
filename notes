@@ -1,0 +1,5 @@
+1-yay -Rns <package>
+2-yay -Sc
+3-xset q
+4-i3swallow
+5-picom --experimental-backend --blur-background --blur-method gaussian --blur-size 100 --blur-deviation 100
