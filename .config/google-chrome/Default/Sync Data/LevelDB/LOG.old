@@ -1,0 +1,24 @@
+2020/08/18-22:04:33.910 bff Reusing MANIFEST /home/tito/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/08/18-22:04:33.910 bff Recovering log #88
+2020/08/18-22:04:33.917 bff Reusing old log /home/tito/.config/google-chrome/Default/Sync Data/LevelDB/000088.log 
+2020/08/18-22:11:57.537 f8c Level-0 table #92: started
+2020/08/18-22:11:57.547 f8c Level-0 table #92: 105545 bytes OK
+2020/08/18-22:11:57.550 f8c Delete type=0 #88
+2020/08/18-22:59:05.386 f8c Level-0 table #94: started
+2020/08/18-22:59:05.392 f8c Level-0 table #94: 112920 bytes OK
+2020/08/18-22:59:05.396 f8c Delete type=0 #91
+2020/08/18-22:59:05.396 f8c Compacting 4@0 + 1@1 files
+2020/08/18-22:59:05.403 f8c Generated table #95@0: 229 keys, 26502 bytes
+2020/08/18-22:59:05.403 f8c Compacted 4@0 + 1@1 files => 26502 bytes
+2020/08/18-22:59:05.405 f8c compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/08/18-22:59:05.406 f8c Delete type=2 #89
+2020/08/18-22:59:05.406 f8c Delete type=2 #92
+2020/08/18-22:59:05.406 f8c Delete type=2 #83
+2020/08/18-22:59:05.406 f8c Delete type=2 #86
+2020/08/18-22:59:05.406 f8c Delete type=2 #94
+2020/08/18-23:46:53.838 f8c Level-0 table #97: started
+2020/08/18-23:46:53.845 f8c Level-0 table #97: 123066 bytes OK
+2020/08/18-23:46:53.851 f8c Delete type=0 #93
+2020/08/18-23:58:50.719 f8c Level-0 table #99: started
+2020/08/18-23:58:50.726 f8c Level-0 table #99: 124380 bytes OK
+2020/08/18-23:58:50.730 f8c Delete type=0 #96

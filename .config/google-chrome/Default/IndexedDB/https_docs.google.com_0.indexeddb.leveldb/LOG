@@ -1,0 +1,8 @@
+2020/08/19-15:50:40.259 424c Reusing MANIFEST /home/tito/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/19-15:50:40.259 424c Recovering log #1760
+2020/08/19-15:50:40.259 424c Reusing old log /home/tito/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/001760.log 
+2020/08/19-15:50:57.623 5e6 Level-0 table #1764: started
+2020/08/19-15:50:57.623 5e6 Level-0 table #1764: 0 bytes OK
+2020/08/19-15:50:57.626 5e6 Delete type=0 #1760
+2020/08/19-15:50:57.627 5e6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/19-15:50:57.627 5e6 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

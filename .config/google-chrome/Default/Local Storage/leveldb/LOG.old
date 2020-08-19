@@ -1,0 +1,111 @@
+2020/08/18-22:04:33.937 c0c Reusing MANIFEST /home/tito/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2020/08/18-22:04:33.937 c0c Recovering log #240
+2020/08/18-22:04:33.939 c0c Reusing old log /home/tito/.config/google-chrome/Default/Local Storage/leveldb/000240.log 
+2020/08/18-22:06:36.572 109d Level-0 table #244: started
+2020/08/18-22:06:36.581 109d Level-0 table #244: 109636 bytes OK
+2020/08/18-22:06:36.584 109d Delete type=0 #240
+2020/08/18-22:11:37.584 109d Level-0 table #246: started
+2020/08/18-22:11:37.591 109d Level-0 table #246: 86113 bytes OK
+2020/08/18-22:11:37.595 109d Delete type=0 #243
+2020/08/18-22:11:37.595 109d Compacting 4@0 + 1@1 files
+2020/08/18-22:11:37.608 109d Generated table #247@0: 563 keys, 383539 bytes
+2020/08/18-22:11:37.608 109d Compacted 4@0 + 1@1 files => 383539 bytes
+2020/08/18-22:11:37.610 109d compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/08/18-22:11:37.610 109d Delete type=2 #239
+2020/08/18-22:11:37.610 109d Delete type=2 #237
+2020/08/18-22:11:37.610 109d Delete type=2 #246
+2020/08/18-22:11:37.610 109d Delete type=2 #244
+2020/08/18-22:11:37.610 109d Delete type=2 #241
+2020/08/18-22:11:50.084 109d Level-0 table #249: started
+2020/08/18-22:11:50.101 109d Level-0 table #249: 91089 bytes OK
+2020/08/18-22:11:50.107 109d Delete type=0 #245
+2020/08/18-22:12:10.159 109d Level-0 table #251: started
+2020/08/18-22:12:10.169 109d Level-0 table #251: 91903 bytes OK
+2020/08/18-22:12:10.172 109d Delete type=0 #248
+2020/08/18-22:23:18.389 109d Level-0 table #253: started
+2020/08/18-22:23:18.397 109d Level-0 table #253: 99913 bytes OK
+2020/08/18-22:23:18.399 109d Delete type=0 #250
+2020/08/18-22:26:27.701 109d Level-0 table #255: started
+2020/08/18-22:26:27.710 109d Level-0 table #255: 85885 bytes OK
+2020/08/18-22:26:27.714 109d Delete type=0 #252
+2020/08/18-22:26:27.714 109d Compacting 4@0 + 1@1 files
+2020/08/18-22:26:27.751 109d Generated table #256@0: 567 keys, 383755 bytes
+2020/08/18-22:26:27.751 109d Compacted 4@0 + 1@1 files => 383755 bytes
+2020/08/18-22:26:27.754 109d compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/08/18-22:26:27.754 109d Delete type=2 #253
+2020/08/18-22:26:27.754 109d Delete type=2 #247
+2020/08/18-22:26:27.754 109d Delete type=2 #249
+2020/08/18-22:26:27.755 109d Delete type=2 #251
+2020/08/18-22:26:27.755 109d Delete type=2 #255
+2020/08/18-22:26:52.798 109d Level-0 table #258: started
+2020/08/18-22:26:52.805 109d Level-0 table #258: 84185 bytes OK
+2020/08/18-22:26:52.808 109d Delete type=0 #254
+2020/08/18-22:27:03.068 109d Level-0 table #260: started
+2020/08/18-22:27:03.075 109d Level-0 table #260: 84185 bytes OK
+2020/08/18-22:27:03.079 109d Delete type=0 #257
+2020/08/18-22:30:53.682 109d Level-0 table #262: started
+2020/08/18-22:30:53.693 109d Level-0 table #262: 100429 bytes OK
+2020/08/18-22:30:53.695 109d Delete type=0 #259
+2020/08/18-22:40:45.304 109d Level-0 table #264: started
+2020/08/18-22:40:45.318 109d Level-0 table #264: 97563 bytes OK
+2020/08/18-22:40:45.322 109d Delete type=0 #261
+2020/08/18-22:40:45.322 109d Compacting 4@0 + 1@1 files
+2020/08/18-22:40:45.368 109d Generated table #265@0: 575 keys, 382612 bytes
+2020/08/18-22:40:45.368 109d Compacted 4@0 + 1@1 files => 382612 bytes
+2020/08/18-22:40:45.371 109d compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/08/18-22:40:45.372 109d Delete type=2 #256
+2020/08/18-22:40:45.372 109d Delete type=2 #264
+2020/08/18-22:40:45.372 109d Delete type=2 #262
+2020/08/18-22:40:45.372 109d Delete type=2 #258
+2020/08/18-22:40:45.372 109d Delete type=2 #260
+2020/08/18-22:53:45.324 109d Level-0 table #267: started
+2020/08/18-22:53:45.330 109d Level-0 table #267: 91610 bytes OK
+2020/08/18-22:53:45.333 109d Delete type=0 #263
+2020/08/18-22:54:54.079 109d Level-0 table #269: started
+2020/08/18-22:54:54.084 109d Level-0 table #269: 84185 bytes OK
+2020/08/18-22:54:54.086 109d Delete type=0 #266
+2020/08/18-22:59:37.613 109d Level-0 table #271: started
+2020/08/18-22:59:37.618 109d Level-0 table #271: 100856 bytes OK
+2020/08/18-22:59:37.621 109d Delete type=0 #268
+2020/08/18-23:00:42.933 109d Level-0 table #273: started
+2020/08/18-23:00:42.943 109d Level-0 table #273: 84185 bytes OK
+2020/08/18-23:00:42.947 109d Delete type=0 #270
+2020/08/18-23:00:42.947 109d Compacting 4@0 + 1@1 files
+2020/08/18-23:00:42.977 109d Generated table #274@0: 583 keys, 381283 bytes
+2020/08/18-23:00:42.977 109d Compacted 4@0 + 1@1 files => 381283 bytes
+2020/08/18-23:00:42.980 109d compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/08/18-23:00:42.980 109d Delete type=2 #271
+2020/08/18-23:00:42.980 109d Delete type=2 #269
+2020/08/18-23:00:42.980 109d Delete type=2 #265
+2020/08/18-23:00:42.980 109d Delete type=2 #267
+2020/08/18-23:00:42.980 109d Delete type=2 #273
+2020/08/18-23:00:45.225 109d Level-0 table #276: started
+2020/08/18-23:00:45.235 109d Level-0 table #276: 84185 bytes OK
+2020/08/18-23:00:45.241 109d Delete type=0 #272
+2020/08/18-23:21:31.720 109d Level-0 table #278: started
+2020/08/18-23:21:31.728 109d Level-0 table #278: 17532 bytes OK
+2020/08/18-23:21:31.733 109d Delete type=0 #275
+2020/08/18-23:29:23.928 109d Level-0 table #280: started
+2020/08/18-23:29:23.934 109d Level-0 table #280: 90262 bytes OK
+2020/08/18-23:29:23.936 109d Delete type=0 #277
+2020/08/18-23:45:45.178 109d Level-0 table #282: started
+2020/08/18-23:45:45.182 109d Level-0 table #282: 18504 bytes OK
+2020/08/18-23:45:45.184 109d Delete type=0 #279
+2020/08/18-23:45:45.184 109d Compacting 4@0 + 1@1 files
+2020/08/18-23:45:45.197 109d Generated table #283@0: 605 keys, 385350 bytes
+2020/08/18-23:45:45.197 109d Compacted 4@0 + 1@1 files => 385350 bytes
+2020/08/18-23:45:45.200 109d compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/08/18-23:45:45.200 109d Delete type=2 #278
+2020/08/18-23:45:45.200 109d Delete type=2 #280
+2020/08/18-23:45:45.200 109d Delete type=2 #282
+2020/08/18-23:45:45.200 109d Delete type=2 #274
+2020/08/18-23:45:45.200 109d Delete type=2 #276
+2020/08/19-00:01:01.231 109d Level-0 table #285: started
+2020/08/19-00:01:01.236 109d Level-0 table #285: 30974 bytes OK
+2020/08/19-00:01:01.239 109d Delete type=0 #281
+2020/08/19-00:01:33.809 109d Level-0 table #287: started
+2020/08/19-00:01:33.815 109d Level-0 table #287: 101171 bytes OK
+2020/08/19-00:01:33.818 109d Delete type=0 #284
+2020/08/19-00:03:05.684 109d Level-0 table #289: started
+2020/08/19-00:03:05.689 109d Level-0 table #289: 19708 bytes OK
+2020/08/19-00:03:05.696 109d Delete type=0 #286

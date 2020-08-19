@@ -1,0 +1,15 @@
+2020/08/19-14:55:16.319 f2d Reusing MANIFEST /home/tito/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/19-14:55:16.319 f2d Recovering log #203
+2020/08/19-14:55:16.319 f2d Reusing old log /home/tito/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000203.log 
+2020/08/19-15:09:45.611 5e6 Level-0 table #211: started
+2020/08/19-15:09:45.617 5e6 Level-0 table #211: 81965 bytes OK
+2020/08/19-15:09:45.620 5e6 Delete type=0 #203
+2020/08/19-15:09:45.620 5e6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/19-15:09:45.621 5e6 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x05\x01\x02\x01\x1f\x00o\x00g\x00.\x00q\x00t\x00m\x00.\x00e\x00n\x00_\x00U\x00S\x00.\x000\x00x\x001\x00C\x00_\x00x\x00x\x00O\x00g\x00T\x00I\x00.\x00O\x00.\x00n\x00u\x00l\x00l' @ 89751 : 1
+2020/08/19-15:09:45.621 5e6 Compacting 1@1 + 1@2 files
+2020/08/19-15:09:45.659 5e6 Generated table #212@1: 2268 keys, 2121197 bytes
+2020/08/19-15:09:45.659 5e6 Compacted 1@1 + 1@2 files => 2121197 bytes
+2020/08/19-15:09:45.661 5e6 compacted to: files[ 0 0 3 0 0 0 0 ]
+2020/08/19-15:09:45.662 5e6 Delete type=2 #211
+2020/08/19-15:09:45.662 5e6 Delete type=2 #206
+2020/08/19-15:09:45.662 5e6 Manual compaction at level-1 from '\x00\x05\x01\x02\x01\x1f\x00o\x00g\x00.\x00q\x00t\x00m\x00.\x00e\x00n\x00_\x00U\x00S\x00.\x000\x00x\x001\x00C\x00_\x00x\x00x\x00O\x00g\x00T\x00I\x00.\x00O\x00.\x00n\x00u\x00l\x00l' @ 89751 : 1 .. (end); will stop at (end)

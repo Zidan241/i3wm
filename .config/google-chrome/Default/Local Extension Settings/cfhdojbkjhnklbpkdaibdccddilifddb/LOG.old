@@ -1,0 +1,45 @@
+2020/08/18-22:04:34.939 c3a Reusing MANIFEST /home/tito/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2020/08/18-22:04:34.944 c3a Recovering log #666
+2020/08/18-22:04:35.029 c3a Level-0 table #669: started
+2020/08/18-22:04:35.136 c3a Level-0 table #669: 5325591 bytes OK
+2020/08/18-22:04:35.142 c3a Delete type=0 #666
+2020/08/18-22:05:38.708 f8c Level-0 table #672: started
+2020/08/18-22:05:38.835 f8c Level-0 table #672: 5325536 bytes OK
+2020/08/18-22:05:38.838 f8c Delete type=0 #670
+2020/08/18-22:05:38.840 f8c Compacting 4@0 + 2@1 files
+2020/08/18-22:05:39.104 f8c Generated table #673@0: 1 keys, 5325321 bytes
+2020/08/18-22:05:39.110 f8c Generated table #674@0: 4 keys, 511 bytes
+2020/08/18-22:05:39.110 f8c Compacted 4@0 + 2@1 files => 5325832 bytes
+2020/08/18-22:05:39.112 f8c compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/08/18-22:05:39.113 f8c Delete type=2 #662
+2020/08/18-22:05:39.113 f8c Delete type=2 #669
+2020/08/18-22:05:39.113 f8c Delete type=2 #667
+2020/08/18-22:05:39.113 f8c Delete type=2 #663
+2020/08/18-22:05:39.113 f8c Delete type=2 #665
+2020/08/18-22:05:39.113 f8c Delete type=2 #672
+2020/08/18-22:05:40.860 f8c Level-0 table #676: started
+2020/08/18-22:05:41.059 f8c Level-0 table #676: 5325833 bytes OK
+2020/08/18-22:05:41.173 f8c Delete type=0 #671
+2020/08/18-22:06:22.153 f8c Level-0 table #678: started
+2020/08/18-22:06:22.245 f8c Level-0 table #678: 5323204 bytes OK
+2020/08/18-22:06:22.249 f8c Delete type=0 #675
+2020/08/18-23:05:38.396 f8c Level-0 table #680: started
+2020/08/18-23:05:38.469 f8c Level-0 table #680: 5323317 bytes OK
+2020/08/18-23:05:38.471 f8c Delete type=0 #677
+2020/08/18-23:07:42.016 f8c Level-0 table #682: started
+2020/08/18-23:07:42.097 f8c Level-0 table #682: 5323267 bytes OK
+2020/08/18-23:07:42.100 f8c Delete type=0 #679
+2020/08/18-23:07:42.104 f8c Compacting 4@0 + 2@1 files
+2020/08/18-23:07:42.228 f8c Generated table #683@0: 1 keys, 5322991 bytes
+2020/08/18-23:07:42.231 f8c Generated table #684@0: 4 keys, 510 bytes
+2020/08/18-23:07:42.231 f8c Compacted 4@0 + 2@1 files => 5323501 bytes
+2020/08/18-23:07:42.234 f8c compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/08/18-23:07:42.234 f8c Delete type=2 #674
+2020/08/18-23:07:42.234 f8c Delete type=2 #678
+2020/08/18-23:07:42.234 f8c Delete type=2 #676
+2020/08/18-23:07:42.234 f8c Delete type=2 #682
+2020/08/18-23:07:42.234 f8c Delete type=2 #673
+2020/08/18-23:07:42.234 f8c Delete type=2 #680
+2020/08/19-00:05:38.449 f8c Level-0 table #686: started
+2020/08/19-00:05:38.527 f8c Level-0 table #686: 5324606 bytes OK
+2020/08/19-00:05:38.530 f8c Delete type=0 #681

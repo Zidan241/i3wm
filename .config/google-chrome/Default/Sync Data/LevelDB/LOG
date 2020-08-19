@@ -1,0 +1,6 @@
+2020/08/19-14:40:29.833 41d Reusing MANIFEST /home/tito/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/08/19-14:40:29.834 41d Recovering log #98
+2020/08/19-14:40:29.837 41d Reusing old log /home/tito/.config/google-chrome/Default/Sync Data/LevelDB/000098.log 
+2020/08/19-15:15:05.737 720 Level-0 table #102: started
+2020/08/19-15:15:05.746 720 Level-0 table #102: 166354 bytes OK
+2020/08/19-15:15:05.753 720 Delete type=0 #98

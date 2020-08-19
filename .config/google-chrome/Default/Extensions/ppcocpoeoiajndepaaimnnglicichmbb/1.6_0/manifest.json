@@ -1,0 +1,47 @@
+{
+   "description": "The planet Saturn and its rings depicted in blue space.",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDrynBFJIWnpSppSvlzxC7WnUEtKDC4x88kwa75Ob0sI2BrdoXlLDvTWB6POI5svMc8BVCyYG8IuBqHCp1PSxhrbaS1gwxWRuI28OB9rR1WE2jJppabP3nb5zozQ8dwx5jlkZuRGzn8WWBmin9IZFd67hoLVw2MgYmDxkkDWlAU9QIDAQAB",
+   "manifest_version": 2,
+   "name": "Space Planet",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 255, 255, 255 ],
+         "frame": [ 28, 88, 124 ],
+         "frame_inactive": [ 28, 88, 124 ],
+         "frame_incognito_inactive": [ 28, 88, 124 ],
+         "frame_incongnito": [ 28, 88, 124 ],
+         "ntp_background": [ 28, 88, 124 ],
+         "ntp_header": [ 255, 255, 255 ],
+         "ntp_link": [ 255, 255, 255 ],
+         "ntp_section": [ 255, 255, 255 ],
+         "ntp_section_link": [ 255, 255, 255 ],
+         "ntp_section_link_underline": [ 255, 255, 255 ],
+         "ntp_section_text": [ 255, 255, 255 ],
+         "ntp_text": [ 255, 255, 255 ],
+         "tab_background_text": [ 255, 255, 255 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 9, 80, 112 ]
+      },
+      "images": {
+         "theme_frame": "images/frame.png",
+         "theme_ntp_attribution": "images/logo.png",
+         "theme_ntp_background": "images/spaceplanet.png",
+         "theme_tab_background": "images/tab.png",
+         "theme_toolbar": "images/toolbar.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "left bottom",
+         "ntp_background_repeat": "no-repeat",
+         "ntp_logo_alternate": 1
+      },
+      "tints": {
+         "background_tab": [ 0.5, 0.6, 0.6 ],
+         "buttons": [ 0.99, 0.99, 0.99 ],
+         "frame_inactive": [ 0.55, 0.5, 0.5 ],
+         "frame_incognito": [ 0.55, 0.5, 0.5 ],
+         "frame_incognito_inactive": [ 0.55, 0.5, 0.5 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6"
+}

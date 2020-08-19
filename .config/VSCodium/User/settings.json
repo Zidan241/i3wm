@@ -1,0 +1,16 @@
+{
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "window.zoomLevel": 1,
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback', 'Font Awesome 5 Free Solid', 'Hurmit Nerd Font Mono'",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "color-highlight.markerType": "dot-before",
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "workbench.startupEditor": "none"
+}

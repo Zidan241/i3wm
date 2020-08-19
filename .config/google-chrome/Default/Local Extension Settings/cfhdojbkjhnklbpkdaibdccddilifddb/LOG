@@ -1,0 +1,28 @@
+2020/08/19-14:40:30.833 41e Reusing MANIFEST /home/tito/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2020/08/19-14:40:30.835 41e Recovering log #685
+2020/08/19-14:40:30.951 41e Level-0 table #688: started
+2020/08/19-14:40:31.077 41e Level-0 table #688: 5323377 bytes OK
+2020/08/19-14:40:31.080 41e Delete type=0 #685
+2020/08/19-14:41:33.841 720 Level-0 table #691: started
+2020/08/19-14:41:33.914 720 Level-0 table #691: 5323152 bytes OK
+2020/08/19-14:41:33.917 720 Delete type=0 #689
+2020/08/19-14:41:49.423 720 Level-0 table #693: started
+2020/08/19-14:41:49.537 720 Level-0 table #693: 5323405 bytes OK
+2020/08/19-14:41:49.541 720 Delete type=0 #690
+2020/08/19-14:41:49.545 720 Compacting 4@0 + 2@1 files
+2020/08/19-14:41:49.706 720 Generated table #694@0: 1 keys, 5323013 bytes
+2020/08/19-14:41:49.713 720 Generated table #695@0: 4 keys, 510 bytes
+2020/08/19-14:41:49.713 720 Compacted 4@0 + 2@1 files => 5323523 bytes
+2020/08/19-14:41:49.715 720 compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/08/19-14:41:49.716 720 Delete type=2 #684
+2020/08/19-14:41:49.716 720 Delete type=2 #683
+2020/08/19-14:41:49.716 720 Delete type=2 #693
+2020/08/19-14:41:49.716 720 Delete type=2 #691
+2020/08/19-14:41:49.716 720 Delete type=2 #688
+2020/08/19-14:41:49.716 720 Delete type=2 #686
+2020/08/19-15:41:33.775 720 Level-0 table #697: started
+2020/08/19-15:41:33.874 720 Level-0 table #697: 5323611 bytes OK
+2020/08/19-15:41:33.878 720 Delete type=0 #692
+2020/08/19-15:41:35.750 720 Level-0 table #699: started
+2020/08/19-15:41:35.837 720 Level-0 table #699: 5323291 bytes OK
+2020/08/19-15:41:35.840 720 Delete type=0 #696

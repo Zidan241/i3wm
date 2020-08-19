@@ -1,0 +1,31 @@
+2020/08/19-14:40:33.554 44b Reusing MANIFEST /home/tito/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/19-14:40:33.554 44b Recovering log #196
+2020/08/19-14:40:33.554 44b Reusing old log /home/tito/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000196.log 
+2020/08/19-14:40:49.088 5e6 Level-0 table #202: started
+2020/08/19-14:40:49.116 5e6 Level-0 table #202: 1906357 bytes OK
+2020/08/19-14:40:49.121 5e6 Delete type=0 #196
+2020/08/19-14:41:49.838 5e6 Level-0 table #204: started
+2020/08/19-14:41:49.852 5e6 Level-0 table #204: 256909 bytes OK
+2020/08/19-14:41:49.856 5e6 Delete type=0 #201
+2020/08/19-14:41:49.857 5e6 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x05\x02\x03\x01$\x00o\x00g\x00.\x00q\x00t\x00m\x00.\x00e\x00n\x00_\x00U\x00S\x00.\x00R\x00R\x00v\x00j\x00r\x00q\x005\x00n\x00y\x00k\x00o\x00.\x00O\x00.\x00n\x00u\x00l\x00l\x00;\x00s\x00y\x001\x00n' @ 89107 : 0
+2020/08/19-14:41:49.857 5e6 Compacting 1@0 + 1@1 files
+2020/08/19-14:41:49.880 5e6 Generated table #205@0: 7325 keys, 99659 bytes
+2020/08/19-14:41:49.880 5e6 Compacted 1@0 + 1@1 files => 99659 bytes
+2020/08/19-14:41:49.883 5e6 compacted to: files[ 0 1 5 0 0 0 0 ]
+2020/08/19-14:41:49.883 5e6 Delete type=2 #202
+2020/08/19-14:41:49.883 5e6 Delete type=2 #204
+2020/08/19-14:41:49.884 5e6 Manual compaction at level-0 from '\x00\x05\x02\x03\x01$\x00o\x00g\x00.\x00q\x00t\x00m\x00.\x00e\x00n\x00_\x00U\x00S\x00.\x00R\x00R\x00v\x00j\x00r\x00q\x005\x00n\x00y\x00k\x00o\x00.\x00O\x00.\x00n\x00u\x00l\x00l\x00;\x00s\x00y\x001\x00n' @ 89107 : 0 .. (end); will stop at (end)
+2020/08/19-14:41:49.884 5e6 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x05\x02\x03\x01$\x00o\x00g\x00.\x00q\x00t\x00m\x00.\x00e\x00n\x00_\x00U\x00S\x00.\x00R\x00R\x00v\x00j\x00r\x00q\x005\x00n\x00y\x00k\x00o\x00.\x00O\x00.\x00n\x00u\x00l\x00l\x00;\x00s\x00y\x001\x00n' @ 89108 : 0
+2020/08/19-14:41:49.884 5e6 Compacting 1@1 + 5@2 files
+2020/08/19-14:41:49.962 5e6 Generated table #206@1: 2268 keys, 2121195 bytes
+2020/08/19-14:41:50.018 5e6 Generated table #207@1: 2056 keys, 2121906 bytes
+2020/08/19-14:41:50.086 5e6 Generated table #208@1: 7027 keys, 2000540 bytes
+2020/08/19-14:41:50.086 5e6 Compacted 1@1 + 5@2 files => 6243641 bytes
+2020/08/19-14:41:50.088 5e6 compacted to: files[ 0 0 3 0 0 0 0 ]
+2020/08/19-14:41:50.089 5e6 Delete type=2 #205
+2020/08/19-14:41:50.089 5e6 Delete type=2 #199
+2020/08/19-14:41:50.089 5e6 Delete type=2 #194
+2020/08/19-14:41:50.089 5e6 Delete type=2 #198
+2020/08/19-14:41:50.089 5e6 Delete type=2 #192
+2020/08/19-14:41:50.089 5e6 Delete type=2 #193
+2020/08/19-14:41:50.092 5e6 Manual compaction at level-1 from '\x00\x05\x02\x03\x01$\x00o\x00g\x00.\x00q\x00t\x00m\x00.\x00e\x00n\x00_\x00U\x00S\x00.\x00R\x00R\x00v\x00j\x00r\x00q\x005\x00n\x00y\x00k\x00o\x00.\x00O\x00.\x00n\x00u\x00l\x00l\x00;\x00s\x00y\x001\x00n' @ 89108 : 0 .. (end); will stop at (end)
