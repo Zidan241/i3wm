@@ -1,0 +1,9 @@
+#!/bin/bash
+
+list=$(cat /home/tito/notes)
+
+echo "$list" \
+    | rofi -dmenu \
+           -i \
+           -p "Notes" \
+           -theme themes/i3keybindingsmenu.rasi >> /home/tito/notes

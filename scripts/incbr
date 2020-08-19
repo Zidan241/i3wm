@@ -1,0 +1,35 @@
+#!/bin/bash
+MON="eDP-1"    # Discover monitor name with: xrandr | grep " connected"
+#STEP="0.05"          # Step Up/Down brightnes by: 5 = ".05", 10 = ".10", etc.
+
+CurrBright=$( brightnessctl g )
+MaxBright=$( brightnessctl m )
+#CurrBright=$(echo "scale=2 ; $CurrBright / $MaxBright" | bc )
+
+
+echo $CurrBright
+
+function send_notification {
+
+	# Arbitrary but unique message id
+	msgId="991051"
+	dunstify -a "changeBrightness" -u low -i audio-volume-high -r "$msgId" \
+	" Brightness: ${CurrBright}%" "$(/home/tito/scripts/getProgressString 10 " " " " $CurrBright)"
+
+
+	# Play the volume changed sound
+	canberra-gtk-play -i audio-volume-change -d "changeVolume"
+}
+
+[[ "$1" == "Up" || "$1" == "+" ]] && brightnessctl s +5% 
+
+
+[[ "$1" == "Down" || "$1" == "-" ]] && brightnessctl s 5%- 
+CurrBright=$( brightnessctl g )
+#[[ "$CurrBright" == ".24" || "$CurrBright" == "1.00" ]] && play /home/tito/Downloads/Enchanted/stereo/bell.ogg
+
+#printf "Monitor $MON "
+#echo $CurrBright
+
+CurrBright=$(echo "scale=2 ; ($CurrBright+5) /$MaxBright *100" | bc)
+send_notification

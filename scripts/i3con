@@ -1,0 +1,2 @@
+#!/bin/bash
+vscodium /home/tito/.config/i3/config

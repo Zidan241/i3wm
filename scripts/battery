@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#num= acpi | awk -F, '{print $2}'
+#num=$(acpi | awk -F, '{print $2}' | tr -d '[:space:]')
+#number=${num::-1}
+
+low=false
+high=false
+
+while [ 1 ]; do
+number=$(cat /sys/class/power_supply/BAT1/capacity)
+if [[ $number -lt 15 ]]; then
+	if ! $low; then
+		notify-send "WARNING : Battery Low!"
+		play /home/tito/Downloads/Enchanted/stereo/bell.ogg
+		low=true
+	fi
+else
+	low=false
+fi
+
+if [[ $number -gt 98 ]]; then
+	if ! $high; then
+		notify-send "Battery full!"
+		play /home/tito/Downloads/Enchanted/stereo/bell.ogg
+		high=true
+	fi
+else
+	high=false
+fi
+#	echo $low , $high
+	sleep 5s
+done
+
+

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+killall -q gifview
+# Wait until the processes have been shut down
+while pgrep -u $UID -x gifview >/dev/null; do sleep 1; done
+
+xwinwrap -g 1920x1080 -ov -ni -s -nf -- gifview -w WID /home/tito/pics/train.gif -a 

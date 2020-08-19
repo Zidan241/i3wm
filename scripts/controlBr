@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# Wanted trigger timeout in milliseconds.
+IDLE_TIME=$((5*60*1000))
+oldBr=$(brightnessctl g)
+triggered=false
+loops=0;
+
+# ceil() instead of floor()
+while [ 1 ]; do
+    idle=$(xprintidle)
+    if [ $idle -ge $IDLE_TIME ]; then
+    	currBr=$(brightnessctl g)
+    	idlecheck=$(($idle - ($loops * $IDLE_TIME) ))
+    if [ $idlecheck -ge $IDLE_TIME ]; then
+        if ! $triggered; then
+        	if [[ $currBr -gt 186 ]]; then
+	            triggered=true
+	            oldBr=$(brightnessctl g)
+	            brightnessctl s 20%-
+	            notify-send "Idle : Brightness reduced by 20%"
+	            loops=$(( $loops+1 ))
+
+        	fi	
+        else
+        	if [[ $currBr -gt 186 ]]; then
+	        	brightnessctl s 20%-
+	        	notify-send "Idle : Brightness reduced by 20%"
+	        	loops=$(( $loops+1 ))
+        	fi	
+        fi
+    fi
+    else
+       if $triggered; then
+       		triggered=false
+            brightnessctl s $oldBr
+            notify-send "Welcome Back :)"
+       fi
+    fi
+    sleep 1s
+done

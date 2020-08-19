@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+[[ "$1" == "Up" || "$1" == "+" ]] && pulseaudio-ctl up
+[[ "$1" == "Down" || "$1" == "-" ]] && pulseaudio-ctl down
+
+vol=$(pamixer --get-volume)
+
+
+[[ "$vol" == "100" ]] && play /home/tito/Downloads/Enchanted/stereo/bell.ogg 
+if [ "$vol" == "0" ]; then 
+	pulseaudio-ctl set 100
+	play /home/tito/Downloads/soft_notification.mp3
+	pulseaudio-ctl set 0
+fi

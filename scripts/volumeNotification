@@ -1,0 +1,59 @@
+#!/bin/bash
+
+# You can call this script like this:
+# $./volume.sh up
+# $./volume.sh down
+# $./volume.sh mute
+
+function get_volume {
+    pamixer --get-volume
+}
+
+function is_mute {
+    pamixer --get-mute
+}
+
+function send_notification {
+
+	# Arbitrary but unique message id
+	msgId="991049"
+
+	# Query amixer for the current volume and whether or not the speaker is muted
+	volume="$(  pamixer --get-volume )"
+	mute="$( pamixer --get-mute )"
+	if [[ $volume == 0 || "$mute" == "true" ]]; then
+	    # Show the sound muted notification
+	    dunstify -a "changeVolume" -u low -i audio-volume-muted -r "$msgId" " Volume muted" 
+	else
+	    # Show the volume notification
+	    dunstify -a "changeVolume" -u low -i audio-volume-high -r "$msgId" \
+	    "  Volume: ${volume}%" "$(/home/tito/scripts/getProgressString 10 " " " " $volume)"
+	fi
+
+	# Play the volume changed sound
+	canberra-gtk-play -i audio-volume-change -d "changeVolume"
+}
+
+case $1 in
+    up)
+	# Set the volume on (if it was muted)
+	if is_mute ; then 
+		pulseaudio-ctl mute
+	fi
+	# Up the volume (+ 5%)
+	pulseaudio-ctl up
+	send_notification
+	;;
+    down)
+	if is_mute ; then 
+		pulseaudio-ctl mute
+	fi
+	pulseaudio-ctl down
+	send_notification
+	;;
+    mute)
+    # Toggle mute
+	pulseaudio-ctl mute
+	send_notification
+	;;
+esac
