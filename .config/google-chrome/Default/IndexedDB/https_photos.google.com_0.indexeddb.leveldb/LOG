@@ -1,8 +1,0 @@
-2020/07/24-00:59:38.063 10e7d Reusing MANIFEST /home/tito/.config/google-chrome/Default/IndexedDB/https_photos.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/07/24-00:59:38.063 10e7d Recovering log #10
-2020/07/24-00:59:38.064 10e7d Reusing old log /home/tito/.config/google-chrome/Default/IndexedDB/https_photos.google.com_0.indexeddb.leveldb/000010.log 
-2020/07/24-01:01:15.473 10e4b Level-0 table #14: started
-2020/07/24-01:01:15.473 10e4b Level-0 table #14: 0 bytes OK
-2020/07/24-01:01:15.477 10e4b Delete type=0 #10
-2020/07/24-01:01:15.478 10e4b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/07/24-01:01:15.478 10e4b Manual compaction at level-1 from (begin) .. (end); will stop at (end)

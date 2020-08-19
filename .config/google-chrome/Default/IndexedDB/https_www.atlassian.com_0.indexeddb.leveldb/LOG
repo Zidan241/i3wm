@@ -1,5 +1,0 @@
-2020/08/19-15:15:23.282 2441 Reusing MANIFEST /home/tito/.config/google-chrome/Default/IndexedDB/https_www.atlassian.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/08/19-15:44:21.076 5e6 Level-0 table #5: started
-2020/08/19-15:44:21.081 5e6 Level-0 table #5: 1564 bytes OK
-2020/08/19-15:44:21.084 5e6 Delete type=0 #3
-2020/08/19-15:44:21.084 5e6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

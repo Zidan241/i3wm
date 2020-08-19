@@ -1,5 +1,0 @@
-2020/07/27-00:00:17.783 6c0f Reusing MANIFEST /home/tito/.config/google-chrome/Default/IndexedDB/https_fossbytes.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/07/27-00:00:34.560 6dfc Level-0 table #5: started
-2020/07/27-00:00:34.567 6dfc Level-0 table #5: 5694 bytes OK
-2020/07/27-00:00:34.572 6dfc Delete type=0 #3
-2020/07/27-00:00:34.572 6dfc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

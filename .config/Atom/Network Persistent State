@@ -1,1 +1,0 @@
-{"net":{"http_server_properties":{"servers":[{"https://api.travis-ci.org":{"supports_spdy":true}},{"https://travis-ci.org":{"supports_spdy":true}},{"https://f.cloud.github.com":{"supports_spdy":true}}],"version":5},"network_qualities":{"CAISBVRJVE80GICAgID4/////wE=":"4G"}}}
